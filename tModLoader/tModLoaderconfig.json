@@ -44,7 +44,7 @@
     },
     {
         "DisplayName": "Mod Pack",
-        "Description": "Which modpack to load (does not install mods for you on linux!)",
+        "Description": "Which modpack to load (needs to be a .json file in <modsfolder>/ModPacks)(does not install mods for you on linux!)",
         "FieldName": "ModPack",
         "InputType": "text",
         "Category": "Mod settings",
