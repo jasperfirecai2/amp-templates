@@ -25,7 +25,7 @@
 #remove the # in front of commands to enable them.
 
 #Load a world and automatically start the server.
-world=saves/ModLoader/Worlds/world.wld
+world=ModLoader/Worlds/world.wld
 
 #Creates a new world if none is found. World size is specified by: 1(small), 2(medium), and 3(large).
 autocreate=1

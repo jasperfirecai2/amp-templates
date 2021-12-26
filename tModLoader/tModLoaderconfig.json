@@ -82,7 +82,7 @@
         },
         "Category": "Generator settings",
         "IncludeInCommandLine": false,
-        "DefaultValue": "world"
+        "DefaultValue": "0"
     },
     {
         "DisplayName": "Max Players",
