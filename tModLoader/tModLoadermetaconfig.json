@@ -10,6 +10,7 @@
 					"seed": "Seed",
 					"autocreate": "WorldSize",
 					"worldname": "WorldName",
+					"world": "World",
 					"modpath": "ModPath",
 					"modpack": "ModPack",
 					"worldpath": "WorldPath",

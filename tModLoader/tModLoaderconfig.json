@@ -75,10 +75,10 @@
         "FieldName": "Difficulty",
         "InputType": "enum",
         "EnumValues": {
-            "0": "classic",
-            "1": "expert",
-            "2": "master (1.4+ only)",
-            "3": "journey (1.4+ only)"
+            "0": "Classic",
+            "1": "Expert",
+            "2": "Master (1.4+ only)",
+            "3": "Journey (1.4+ only)"
         },
         "Category": "Generator settings",
         "IncludeInCommandLine": false,
