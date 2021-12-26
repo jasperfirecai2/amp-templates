@@ -1,0 +1,144 @@
+[
+
+    {
+        "DisplayName": "World Seed",
+        "Category": "Generator settings",
+        "Description": "Which world seed to use when generating a new world",
+        "FieldName": "Seed",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "World Size",
+        "Category": "Generator settings",
+        "Description": "Set the Size of the World",
+        "FieldName": "WorldSize",
+        "IncludeInCommandLine": false,
+        "InputType": "enum",
+        "EnumValues": {
+            "1": "1 - Small World",
+            "2": "2 - Medium World",
+            "3": "3 - Large World",
+            "4": "4 - XL World (only for certain mods)"
+        },
+        "DefaultValue": "3"
+    },
+    {
+        "DisplayName": "Created World Name",
+        "Category": "Generator settings",
+        "Description": "How to name the new world",
+        "FieldName": "WorldName",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "world"
+    },
+    {
+        "DisplayName": "Mod Path",
+        "Description": "The relative path to save mods in",
+        "FieldName": "ModPath",
+        "InputType": "text",
+        "Category": "Mod settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Mods"
+    },
+    {
+        "DisplayName": "Mod Pack",
+        "Description": "Which modpack to load (does not install mods for you on linux!)",
+        "FieldName": "ModPack",
+        "InputType": "text",
+        "Category": "Mod settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "World Path",
+        "Description": "The relative path to save worlds in",
+        "FieldName": "WorldPath",
+        "InputType": "text",
+        "Category": "Server settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Worlds"
+    },
+    {
+        "DisplayName": "World Name",
+        "Category": "Server settings",
+        "Description": "Which world to load on boot",
+        "FieldName": "World",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Worlds/world.wld"
+    },
+    {
+        "DisplayName": "Difficulty",
+        "Description": "The difficulty of a newly generated world",
+        "FieldName": "Difficulty",
+        "InputType": "enum",
+        "EnumValues": {
+            "0": "classic",
+            "1": "expert",
+            "2": "master (1.4+ only)",
+            "3": "journey (1.4+ only)"
+        },
+        "Category": "Generator settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "world"
+    },
+    {
+        "DisplayName": "Max Players",
+        "Description": "The maximum players in the server",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "Category": "Server settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 8
+    },
+    {
+        "DisplayName": "Password",
+        "Description": "The password players must enter to join",
+        "FieldName": "Password",
+        "InputType": "password",
+        "Category": "Server settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Motd",
+        "Description": "The motto of the day",
+        "FieldName": "Motd",
+        "InputType": "text",
+        "Category": "Server settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Welcome!"
+    },
+    {
+        "DisplayName": "Priority",
+        "Description": "The process priority",
+        "FieldName": "Priority",
+        "InputType": "enum",
+        "EnumValues": {
+            "0": "Realtime",
+            "1": "High",
+            "2": "AboveNormal",
+            "3": "Normal",
+            "4": "BelowNormal",
+            "5": "Idle"
+        },
+        "Category": "Server settings",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "1"
+    },
+    {
+        "DisplayName": "Cheat Protection",
+        "Category": "Server settings",
+        "Description": "Enable/Disable additional cheat protection",
+        "FieldName": "Secure",
+        "InputType": "checkbox",
+        "IncludeInCommandLine": false,
+        "EnumValues": {
+            "0": "False",
+            "1": "True"
+        },
+        "DefaultValue": "1"
+    }
+]
