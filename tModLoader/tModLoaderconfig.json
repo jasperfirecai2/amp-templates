@@ -19,8 +19,7 @@
         "EnumValues": {
             "1": "1 - Small World",
             "2": "2 - Medium World",
-            "3": "3 - Large World",
-            "4": "4 - XL World (only for certain mods)"
+            "3": "3 - Large World"
         },
         "DefaultValue": "3"
     },
