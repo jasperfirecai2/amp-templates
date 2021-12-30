@@ -2,7 +2,7 @@
 
     {
         "DisplayName": "World Seed",
-        "Category": "Generator settings",
+        "Category": "Terraria Generator settings",
         "Description": "Which world seed to use when generating a new world",
         "FieldName": "Seed",
         "InputType": "text",
@@ -11,7 +11,7 @@
     },
     {
         "DisplayName": "World Size",
-        "Category": "Generator settings",
+        "Category": "Terraria Generator settings",
         "Description": "Set the Size of the World",
         "FieldName": "WorldSize",
         "IncludeInCommandLine": false,
@@ -24,52 +24,8 @@
         "DefaultValue": "3"
     },
     {
-        "DisplayName": "Created World Name",
-        "Category": "Generator settings",
-        "Description": "How to name the new world",
-        "FieldName": "WorldName",
-        "InputType": "text",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "world"
-    },
-    {
-        "DisplayName": "Mod Path",
-        "Description": "The relative path to save mods in",
-        "FieldName": "ModPath",
-        "InputType": "text",
-        "Category": "Mod settings",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "ModLoader/Mods"
-    },
-    {
-        "DisplayName": "Mod Pack",
-        "Description": "Which modpack to load (needs to be a .json file in <modsfolder>/ModPacks)(does not install mods for you on linux!)",
-        "FieldName": "ModPack",
-        "InputType": "text",
-        "Category": "Mod settings",
-        "IncludeInCommandLine": false,
-        "DefaultValue": ""
-    },
-    {
-        "DisplayName": "World Path",
-        "Description": "The relative path to save worlds in",
-        "FieldName": "WorldPath",
-        "InputType": "text",
-        "Category": "Server settings",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "ModLoader/Worlds"
-    },
-    {
-        "DisplayName": "World Name",
-        "Category": "Server settings",
-        "Description": "Which world to load on boot",
-        "FieldName": "World",
-        "InputType": "text",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "ModLoader/Worlds/world.wld"
-    },
-    {
         "DisplayName": "Difficulty",
+        "Category": "Terraria Generator settings",
         "Description": "The difficulty of a newly generated world",
         "FieldName": "Difficulty",
         "InputType": "enum",
@@ -79,39 +35,84 @@
             "2": "Master (1.4+ only)",
             "3": "Journey (1.4+ only)"
         },
-        "Category": "Generator settings",
         "IncludeInCommandLine": false,
         "DefaultValue": "0"
     },
     {
+        "DisplayName": "Created World Name",
+        "Category": "Terraria Generator settings",
+        "Description": "How to name the new world",
+        "FieldName": "WorldName",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "world"
+    },
+    {
+        "DisplayName": "Mod Path",
+        "Category": "Terraria Mod settings",
+        "Description": "The relative path to save mods in",
+        "FieldName": "ModPath",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Mods"
+    },
+    {
+        "DisplayName": "Mod Pack",
+        "Category": "Terraria Mod settings",
+        "Description": "Which modpack to load (needs to be a .json file in <modsfolder>/ModPacks)(does not install mods for you on linux!)",
+        "FieldName": "ModPack",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "World Path",
+        "Category": "Terraria Server settings",
+        "Description": "The relative path to save worlds in",
+        "FieldName": "WorldPath",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Worlds"
+    },
+    {
+        "DisplayName": "World Name",
+        "Category": "Terraria Server settings",
+        "Description": "Which world to load on boot",
+        "FieldName": "World",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Worlds/world.wld"
+    },
+    {
         "DisplayName": "Max Players",
+        "Category": "Terraria Server settings",
         "Description": "The maximum players in the server",
         "FieldName": "$MaxUsers",
         "InputType": "number",
-        "Category": "Server settings",
         "IncludeInCommandLine": false,
         "DefaultValue": 8
     },
     {
         "DisplayName": "Password",
+        "Category": "Terraria Server settings",
         "Description": "The password players must enter to join",
         "FieldName": "Password",
         "InputType": "password",
-        "Category": "Server settings",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
     },
     {
         "DisplayName": "Motd",
+        "Category": "Terraria Server settings",
         "Description": "The motto of the day",
         "FieldName": "Motd",
         "InputType": "text",
-        "Category": "Server settings",
         "IncludeInCommandLine": false,
         "DefaultValue": "Welcome!"
     },
     {
         "DisplayName": "Priority",
+        "Category": "Terraria Server settings",
         "Description": "The process priority",
         "FieldName": "Priority",
         "InputType": "enum",
@@ -123,16 +124,37 @@
             "4": "BelowNormal",
             "5": "Idle"
         },
-        "Category": "Server settings",
         "IncludeInCommandLine": false,
         "DefaultValue": "1"
     },
     {
+        "DisplayName": "NPC Stream",
+        "Category": "Terraria Server settings",
+        "Description": "Reduces enemy skipping but increases bandwidth usage. The lower the number the less skipping will happen, but more data is sent. 0 is off.",
+        "FieldName": "NpcStream",
+        "InputType": "number",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 60
+    },
+    {
+        "DisplayName": "Slower liquids",
+        "Category": "Terraria Server settings",
+        "Description": "Reduces maximum liquids moving at the same time. If enabled may reduce lags but liquids may take longer to settle.",
+        "FieldName": "Slowliquids",
+        "InputType": "enum",
+        "IncludeInCommandLine": false,
+        "EnumValues": {
+            "0": "False",
+            "1": "True"
+        },
+        "DefaultValue": "1"
+    },
+    {
         "DisplayName": "Cheat Protection",
-        "Category": "Server settings",
+        "Category": "Terraria Server settings",
         "Description": "Enable/Disable additional cheat protection",
         "FieldName": "Secure",
-        "InputType": "checkbox",
+        "InputType": "enum",
         "IncludeInCommandLine": false,
         "EnumValues": {
             "0": "False",

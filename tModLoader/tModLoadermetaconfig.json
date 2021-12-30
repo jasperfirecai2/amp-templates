@@ -19,6 +19,8 @@
 					"password": "Password",
 					"motd": "Motd",
 					"priority": "Priority",
+					"npcstream": "NpcStream",
+					"slowliquids": "Slowliquids",
 					"secure": "Secure"
 				}
 			}
