@@ -1,7 +1,7 @@
 Meta.DisplayName=Terraria-tMod64
 Meta.Description=Terraria + tModLoader from steam + tModLoader64bit from Github
 Meta.OS=Windows, Linux
-Meta.Author=Firecai2 & EnderWolf
+Meta.Author=Firecai2, EnderWolf, IceOfWraith
 Meta.EndpointURIFormat=steam://connect/{0}
 Meta.MetaConfigManifest=tModLoadermetaconfig.json
 Meta.ConfigRoot=tModLoader64.kvp
