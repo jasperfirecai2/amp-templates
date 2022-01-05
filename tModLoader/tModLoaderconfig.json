@@ -50,7 +50,7 @@
     {
         "DisplayName": "Mod Path",
         "Category": "Terraria Mod settings",
-        "Description": "The relative path to save mods in",
+        "Description": "Where tModLoader will read mods from",
         "FieldName": "ModPath",
         "InputType": "text",
         "IncludeInCommandLine": false,
