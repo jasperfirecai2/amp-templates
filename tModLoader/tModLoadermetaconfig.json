@@ -21,7 +21,8 @@
 					"priority": "Priority",
 					"npcstream": "NpcStream",
 					"slowliquids": "Slowliquids",
-					"secure": "Secure"
+					"secure": "Secure",
+					"language": "Language"
 				}
 			}
 		]
