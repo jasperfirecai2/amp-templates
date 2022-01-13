@@ -53,7 +53,7 @@
     },
     {
         "DisplayName": "Mod Path",
-        "Category": "Terraria Mod settings",
+        "Category": "Terraria ModLoader settings",
         "Keywords": "folder path mod mods tmodloader",
         "Description": "Where tModLoader will read mods from. [instructions](https://github.com/jasperfirecai2/amp-templates/wiki/Managing-mods-with-tmodloader)",
         "FieldName": "ModPath",
@@ -63,7 +63,7 @@
     },
     {
         "DisplayName": "Mod Pack",
-        "Category": "Terraria Mod settings",
+        "Category": "Terraria ModLoader settings",
         "Keywords": "pack mod mods modpack tmodloader",
         "Description": "Which modpack to load (does not install mods for you!)",
         "FieldName": "ModPack",
@@ -177,11 +177,11 @@
         "Keywords": "slow liquid liquids slower lag performance",
         "Description": "Reduces maximum liquids moving at the same time. If enabled may reduce lags but liquids may take longer to settle.",
         "FieldName": "Slowliquids",
-        "InputType": "enum",
+        "InputType": "checkbox",
         "IncludeInCommandLine": false,
         "EnumValues": {
-            "0": "False",
-            "1": "True"
+            "False": "0",
+            "True": "1"
         },
         "DefaultValue": "1"
     },
@@ -191,11 +191,11 @@
         "Keywords": "security cheat cheats auto kick spam",
         "Description": "Enable/Disable additional cheat protection",
         "FieldName": "Secure",
-        "InputType": "enum",
+        "InputType": "checkbox",
         "IncludeInCommandLine": false,
         "EnumValues": {
-            "0": "False",
-            "1": "True"
+            "False": "0",
+            "True": "1"
         },
         "DefaultValue": "0"
     }

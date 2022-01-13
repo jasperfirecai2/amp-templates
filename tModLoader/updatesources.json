@@ -1,0 +1,62 @@
+{
+    "tModLoader": [
+        {
+            "UpdateStageName": "SteamCMD tModLoader",
+            "UpdateSourcePlatform": "All",
+            "UpdateSource": "SteamCMD",
+            "UpdateSourceData": "1281930",
+            "UpdateSourceTarget": "serverfiles"
+        }
+    ],
+    "tModLoader1.4": [
+        {
+            "UpdateStageName": "SteamCMD tModLoader1.4 public alpha",
+            "UpdateSourcePlatform": "All",
+            "UpdateSource": "SteamCMD",
+            "UpdateSourceData": "1281930",
+            "UpdateSourceVersion": "public-1.4-alpha",
+            "UpdateSourceTarget": "serverfiles"
+        }
+    ],
+    "tModLoader64": [
+        {
+            "UpdateStageName": "SteamCMD tModLoader",
+            "UpdateSourcePlatform": "All",
+            "UpdateSource": "SteamCMD",
+            "UpdateSourceData": "1281930",
+            "UpdateSourceTarget": "serverfiles"
+        }, 
+        {
+            "UpdateStageName": "Fetch tModLoader64 from Github",
+            "UpdateSourcePlatform": "Windows",
+            "UpdateSource": "GithubRelease",
+            "UpdateSourceArgs": "Dradonhunter11/tModLoader64bit",
+            "UpdateSourceData": "tModLoader64bit-Windows.zip",
+            "UnzipUpdateSource": true,
+            "OverwriteExistingFiles": true,
+            "UpdateSourceTarget": "serverfiles"
+        }, 
+        {
+            "UpdateStageName": "Fetch tModLoader64 from Github",
+            "UpdateSourcePlatform": "Linux",
+            "UpdateSource": "GithubRelease",
+            "UpdateSourceArgs": "Dradonhunter11/tModLoader64bit",
+            "UpdateSourceData": "tModLoader64Bit-Linux-Server.zip",
+            "UnzipUpdateSource": true,
+            "OverwriteExistingFiles": true,
+            "UpdateSourceTarget": "serverfiles"
+        }, 
+        {
+            "UpdateStageName": "Set Permissions on scripts 1/2",
+            "UpdateSourcePlatform": "Linux",
+            "UpdateSource": "SetExecutableFlag",
+            "UpdateSourceArgs": "serverfiles/tModLoader64BitServer"
+        }, 
+        {
+            "UpdateStageName": "Set Permissions on scripts 2/2",
+            "UpdateSourcePlatform": "Linux",
+            "UpdateSource": "SetExecutableFlag",
+            "UpdateSourceArgs": "serverfiles/tModLoader64BitServer.exe"
+        }
+    ]
+}
