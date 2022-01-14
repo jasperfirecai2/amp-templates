@@ -8,7 +8,7 @@
         "FieldName": "Seed",
         "InputType": "text",
         "IncludeInCommandLine": false,
-        "DefaultValue": "PoweredbyAMP"
+        "DefaultValue": ""
     },
     {
         "DisplayName": "World Size",
@@ -89,7 +89,7 @@
         "FieldName": "Password",
         "InputType": "password",
         "IncludeInCommandLine": false,
-        "DefaultValue": "password123"
+        "DefaultValue": ""
     },
     {
         "DisplayName": "Motd",
@@ -188,10 +188,10 @@
         "InputType": "checkbox",
         "IncludeInCommandLine": false,
         "EnumValues": {
-            "False": " ",
+            "False": "",
             "True": "-disableannouncementbox"
         },
-        "DefaultValue": " "
+        "DefaultValue": ""
     },
     {
         "DisplayName": "Announcement Box Range",

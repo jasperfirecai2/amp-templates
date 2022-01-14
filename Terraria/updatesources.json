@@ -1,14 +1,6 @@
 {
     "Terraria": [
         {
-            "UpdateStageName": "Config File Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/serverconfig.txt",
-            "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": false
-        },
-        {
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
             "UpdateSource": "FetchURL",
@@ -27,14 +19,6 @@
     ],
     "tModLoader": [
         {
-            "UpdateStageName": "Config File Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/serverconfig.txt",
-            "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": false
-        },
-        {
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
             "UpdateSource": "FetchURL",
@@ -51,14 +35,6 @@
         }
     ],
     "tModLoader1.4": [
-        {
-            "UpdateStageName": "Config File Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/serverconfig.txt",
-            "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": false
-        },
         {
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
@@ -77,14 +53,6 @@
         }
     ],
     "tModLoader64": [
-        {
-            "UpdateStageName": "Config File Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/serverconfig.txt",
-            "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": false
-        },
         {
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
