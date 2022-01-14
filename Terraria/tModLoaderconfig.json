@@ -8,7 +8,7 @@
         "FieldName": "Seed",
         "InputType": "text",
         "IncludeInCommandLine": false,
-        "DefaultValue": ""
+        "DefaultValue": "PoweredbyAMP"
     },
     {
         "DisplayName": "World Size",
@@ -109,7 +109,7 @@
         "FieldName": "Password",
         "InputType": "password",
         "IncludeInCommandLine": false,
-        "DefaultValue": ""
+        "DefaultValue": "password123"
     },
     {
         "DisplayName": "Motd",
@@ -225,7 +225,7 @@
     },
     {
         "DisplayName": "Freeze time",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power freeze time stop clock",
         "Description": "Journey mode (1.4+ difficulty) power permissions for every individual power. Host is only relevant when using steam integration",
         "FieldName": "time_setfrozen",
@@ -240,7 +240,7 @@
     },
     {
         "DisplayName": "Set to Dawn",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power dawn time clock",
         "FieldName": "time_setdawn",
         "InputType": "enum",
@@ -254,7 +254,7 @@
     },
     {
         "DisplayName": "Set to Noon",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power noon time clock",
         "FieldName": "time_setnoon",
         "InputType": "enum",
@@ -268,7 +268,7 @@
     },
     {
         "DisplayName": "Set to Dusk",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power dusk time clock",
         "FieldName": "time_setdusk",
         "InputType": "enum",
@@ -282,7 +282,7 @@
     },
     {
         "DisplayName": "Set to Midnight",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power midnight time clock",
         "FieldName": "time_setmidnight",
         "InputType": "enum",
@@ -296,7 +296,7 @@
     },
     {
         "DisplayName": "God Mode",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power god godmode",
         "FieldName": "godmode",
         "InputType": "enum",
@@ -310,7 +310,7 @@
     },
     {
         "DisplayName": "Set wind intensity",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power wind set strength",
         "FieldName": "wind_setstrength",
         "InputType": "enum",
@@ -324,7 +324,7 @@
     },
     {
         "DisplayName": "Set rain intensity",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power rain set strength",
         "FieldName": "rain_setstrength",
         "InputType": "enum",
@@ -338,7 +338,7 @@
     },
     {
         "DisplayName": "Change game speed",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power speed time speedup",
         "FieldName": "time_setspeed",
         "InputType": "enum",
@@ -352,7 +352,7 @@
     },
     {
         "DisplayName": "Lock rain conditions",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power rain lock freeze",
         "FieldName": "rain_setfrozen",
         "InputType": "enum",
@@ -366,7 +366,7 @@
     },
     {
         "DisplayName": "Lock Wind conditions",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power wind lock freeze",
         "FieldName": "wind_setfrozen",
         "InputType": "enum",
@@ -380,7 +380,7 @@
     },
     {
         "DisplayName": "Placement Range",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power placement range reach tile",
         "FieldName": "increaseplacementrange",
         "InputType": "enum",
@@ -394,7 +394,7 @@
     },
     {
         "DisplayName": "Difficulty changing",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power difficulty",
         "FieldName": "setdifficulty",
         "InputType": "enum",
@@ -408,7 +408,7 @@
     },
     {
         "DisplayName": "Biome/Evil Spreading",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power evil spread biome crimson hallow corrupted",
         "FieldName": "biomespread_setfrozen",
         "InputType": "enum",
@@ -422,7 +422,7 @@
     },
     {
         "DisplayName": "Spawn Rate",
-        "Category": "Terraria Journey Permission settings",
+        "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power spawn rate",
         "FieldName": "setspawnrate",
         "InputType": "enum",

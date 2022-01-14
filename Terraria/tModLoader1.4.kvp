@@ -17,7 +17,7 @@ App.ExecutableLinux=serverfiles/start-tModLoaderServer
 App.WorkingDir=serverfiles
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=WIP
-App.CommandLineArgs=App.CommandLineArgs=-world {{World}} -autocreate {{WorldSize}} -worldname {{WorldName}} -players {{$MaxUsers}} -port {{$ApplicationPort1}} {{DisableAnnouncementBox}} -announcementboxrange {{AnnouncementBoxRange}} -config {{Config}}
+App.CommandLineArgs=-world {{World}} -autocreate {{WorldSize}} -worldname {{WorldName}} -players {{$MaxUsers}} -port {{$ApplicationPort1}} -announcementboxrange {{AnnouncementBoxRange}} -config {{Config}} {{DisableAnnouncementBox}} 
 App.AppSettings={"Config":"serverconfig.txt"}
 App.CommandLineVars={}
 App.EnvironmentVariables={}
@@ -32,7 +32,7 @@ App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationPort1=7777
 App.MaxUsers=8
-App.UpdateSources=[{"UpdateStageName": "SteamCMD tModLoader1.4 public alpha","UpdateSourcePlatform": "All","UpdateSource": "SteamCMD","UpdateSourceData": "1281930","UpdateSourceVersion": "public-1.4-alpha","UpdateSourceTarget": "serverfiles"}]
+App.UpdateSources=[{"UpdateStageName": "Config File Download","UpdateSourcePlatform": "All","UpdateSource": "FetchURL","UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/serverconfig.txt","UpdateSourceTarget": "serverfiles","OverwriteExistingFiles": false}, {"UpdateStageName": "Config Template Download","UpdateSourcePlatform": "All","UpdateSource": "FetchURL","UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/tModLoaderconfigtemplate.txt","UpdateSourceTarget": "../","OverwriteExistingFiles": true}, {"UpdateStageName": "SteamCMD tModLoader1.4 public alpha","UpdateSourcePlatform": "All","UpdateSource": "SteamCMD","UpdateSourceData": "1281930","UpdateSourceVersion": "public-1.4-alpha","UpdateSourceTarget": "serverfiles"}]
 App.Compatibility=None
 App.SteamUpdateAnonymousLogin=False
 App.SteamForceLoginPrompt=True
