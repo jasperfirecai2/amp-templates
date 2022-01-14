@@ -1,7 +1,7 @@
 
 # amp-templates
 
-App templates made for [AMP](https://github.com/CubeCoders/AMP) that aren't in there by default in development stage
+[App templates](https://github.com/CubeCoders/AMPTemplates) made for [AMP](https://github.com/CubeCoders/AMP) in development stage
 
 ## Known issues
 
