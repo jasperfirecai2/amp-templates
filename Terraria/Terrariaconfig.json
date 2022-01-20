@@ -6,6 +6,8 @@
         "Keywords": "seed new world",
         "Description": "Which world seed to use when generating a new world",
         "FieldName": "Seed",
+        "PlaceHolder": "PoweredByAMP",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
@@ -47,6 +49,8 @@
         "Keywords": "name new world",
         "Description": "How to name the new world",
         "FieldName": "WorldName",
+        "PlaceHolder": "world",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "world"
@@ -57,9 +61,11 @@
         "Keywords": "folder path world saves savegame worlds",
         "Description": "The relative path to save worlds in",
         "FieldName": "WorldPath",
+        "PlaceHolder": "Worlds",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
-        "DefaultValue": "ModLoader/Worlds"
+        "DefaultValue": "Worlds"
     },
     {
         "DisplayName": "World Name",
@@ -67,9 +73,11 @@
         "Keywords": "name world worldname load boot",
         "Description": "Which world to load on boot",
         "FieldName": "World",
+        "PlaceHolder": "Worlds/world.wld",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
-        "DefaultValue": "ModLoader/Worlds/world.wld"
+        "DefaultValue": "Worlds/world.wld"
     },
     {
         "DisplayName": "Max Players",
@@ -77,6 +85,8 @@
         "Keywords": "players max maximum",
         "Description": "The maximum players in the server",
         "FieldName": "$MaxUsers",
+        "PlaceHolder": "8",
+        "Suffix": "Users",
         "InputType": "number",
         "IncludeInCommandLine": false,
         "DefaultValue": 8
@@ -87,6 +97,8 @@
         "Keywords": "password pw security",
         "Description": "The password players must enter to join",
         "FieldName": "Password",
+        "PlaceHolder": "Password123",
+        "Suffix": "",
         "InputType": "password",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
@@ -97,6 +109,8 @@
         "Keywords": "motd motto message welcome",
         "Description": "The motto/message of the day",
         "FieldName": "Motd",
+        "PlaceHolder": "Welcome!",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "Welcome!"
@@ -147,6 +161,8 @@
         "Keywords": "npc stream skipping lag bandwidth performance",
         "Description": "Reduces enemy skipping but increases bandwidth usage. The lower the number the less skipping will happen, but more data is sent. 0 is off.",
         "FieldName": "NpcStream",
+        "PlaceHolder": "60",
+        "Suffix": "",
         "InputType": "number",
         "IncludeInCommandLine": false,
         "DefaultValue": 60
@@ -199,6 +215,8 @@
         "Keywords": "announcement box range griefing",
         "Description": "Sets the announcement box text messaging range in pixels, -1 for serverwide announcements.",
         "FieldName": "AnnouncementBoxRange",
+        "PlaceHolder": "-1",
+        "Suffix": "Pixels",
         "InputType": "number",
         "IncludeInCommandLine": false,
         "DefaultValue": "-1"

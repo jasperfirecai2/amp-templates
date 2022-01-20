@@ -6,6 +6,8 @@
         "Keywords": "seed new world",
         "Description": "Which world seed to use when generating a new world",
         "FieldName": "Seed",
+        "PlaceHolder": "PoweredByAMP",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
@@ -47,6 +49,8 @@
         "Keywords": "name new world",
         "Description": "How to name the new world",
         "FieldName": "WorldName",
+        "PlaceHolder": "World",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "world"
@@ -57,6 +61,8 @@
         "Keywords": "folder path mod mods tmodloader",
         "Description": "Where tModLoader will read mods from. [instructions](https://github.com/jasperfirecai2/amp-templates/wiki/Managing-mods-with-tmodloader)",
         "FieldName": "ModPath",
+        "PlaceHolder": "ModLoader/Mods",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "ModLoader/Mods"
@@ -67,6 +73,8 @@
         "Keywords": "pack mod mods modpack tmodloader",
         "Description": "Which modpack to load (does not install mods for you!)",
         "FieldName": "ModPack",
+        "PlaceHolder": "modpack",
+        "Suffix": ".json",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
@@ -77,6 +85,8 @@
         "Keywords": "folder path world saves savegame worlds",
         "Description": "The relative path to save worlds in",
         "FieldName": "WorldPath",
+        "PlaceHolder": "ModLoader/Worlds",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "ModLoader/Worlds"
@@ -87,6 +97,8 @@
         "Keywords": "name world worldname load boot",
         "Description": "Which world to load on boot",
         "FieldName": "World",
+        "PlaceHolder": "ModLoader/Worlds/world.wld",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "ModLoader/Worlds/world.wld"
@@ -97,6 +109,8 @@
         "Keywords": "players max maximum",
         "Description": "The maximum players in the server",
         "FieldName": "$MaxUsers",
+        "PlaceHolder": "8",
+        "Suffix": "Users",
         "InputType": "number",
         "IncludeInCommandLine": false,
         "DefaultValue": 8
@@ -107,6 +121,8 @@
         "Keywords": "password pw security",
         "Description": "The password players must enter to join",
         "FieldName": "Password",
+        "PlaceHolder": "Password123",
+        "Suffix": "",
         "InputType": "password",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
@@ -117,6 +133,8 @@
         "Keywords": "motd motto message welcome",
         "Description": "The motto/message of the day",
         "FieldName": "Motd",
+        "PlaceHolder": "Welcome!",
+        "Suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "Welcome!"
@@ -167,6 +185,8 @@
         "Keywords": "npc stream skipping lag bandwidth performance",
         "Description": "Reduces enemy skipping but increases bandwidth usage. The lower the number the less skipping will happen, but more data is sent. 0 is off.",
         "FieldName": "NpcStream",
+        "PlaceHolder": "60",
+        "Suffix": "",
         "InputType": "number",
         "IncludeInCommandLine": false,
         "DefaultValue": 60
@@ -219,6 +239,8 @@
         "Keywords": "announcement box range griefing",
         "Description": "Sets the announcement box text messaging range in pixels, -1 for serverwide announcements.",
         "FieldName": "AnnouncementBoxRange",
+        "PlaceHolder": "-1",
+        "Suffix": "Pixels",
         "InputType": "number",
         "IncludeInCommandLine": false,
         "DefaultValue": "-1"
