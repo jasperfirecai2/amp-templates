@@ -80,9 +80,9 @@
     },
     {
         "DisplayName": "Download Source",
-        "Category": "Terraria Server settings",
-        "Keywords": "download source steam github",
-        "Description": "Select where to obtain tModLoader",
+        "Category": "Terraria ModLoader settings",
+        "Keywords": "download source steam github tmodloader",
+        "Description": "Select where to obtain tModLoader. Steam requires you to own Terraria on your account.",
         "FieldName": "Source",
         "IncludeInCommandLine": false,
         "InputType": "enum",
@@ -241,10 +241,10 @@
         "InputType": "checkbox",
         "IncludeInCommandLine": false,
         "EnumValues": {
-            "False": " ",
+            "False": "",
             "True": "-disableannouncementbox"
         },
-        "DefaultValue": " "
+        "DefaultValue": ""
     },
     {
         "DisplayName": "Announcement Box Range",
