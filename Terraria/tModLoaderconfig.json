@@ -1,5 +1,4 @@
 [
-
     {
         "DisplayName": "World Seed",
         "Category": "Terraria Generator settings",
@@ -78,6 +77,20 @@
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Download Source",
+        "Category": "Terraria Server settings",
+        "Keywords": "download source steam github",
+        "Description": "Select where to obtain tModLoader",
+        "FieldName": "Source",
+        "IncludeInCommandLine": false,
+        "InputType": "enum",
+        "EnumValues": {
+            "Steam": "Steam",
+            "GitHub": "GitHub"
+        },
+        "DefaultValue": "Steam"
     },
     {
         "DisplayName": "World Path",
