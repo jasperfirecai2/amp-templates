@@ -32,6 +32,30 @@
             "UpdateSource": "SteamCMD",
             "UpdateSourceData": "1281930",
             "UpdateSourceTarget": "serverfiles"
+        },
+        {
+            "UpdateStageName": "GitHub tModLoader Windows",
+            "UpdateSourcePlatform": "Windows",
+            "UpdateSource": "FetchURLfromJQ",
+            "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
+            "UpdateSourceArgs": "$.assets[7].browser_download_url",
+            "UnzipUpdateSource": true,
+            "OverwriteExistingFiles": true,
+            "UpdateSourceConditionSetting": "Source",
+            "UpdateSourceConditionValue": "GitHub",
+            "UpdateSourceTarget": "serverfiles"
+        },
+        {
+            "UpdateStageName": "GitHub tModLoader Linux",
+            "UpdateSourcePlatform": "Linux",
+            "UpdateSource": "FetchURLfromJQ",
+            "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
+            "UpdateSourceArgs": "$.assets[4].browser_download_url",
+            "UnzipUpdateSource": true,
+            "OverwriteExistingFiles": true,
+            "UpdateSourceConditionSetting": "Source",
+            "UpdateSourceConditionValue": "GitHub",
+            "UpdateSourceTarget": "serverfiles"
         }
     ],
     "tModLoader1.4": [
