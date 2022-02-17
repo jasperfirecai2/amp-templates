@@ -53,11 +53,15 @@ motd={{Motd}}
 #Sets the folder where world files will be stored
 worldpath={{WorldPath}}
 
+#Path for mods
+modpath={{ModPath}}
+modpack={{ModPack}}
+
 #Sets the number of rolling world backups to keep
-#worldrollbackstokeep=2
+worldrollbackstokeep={{Backups}}
 
 #The location of the banlist. Defaults to "banlist.txt" in the working directory.
-#banlist=banlist.txt
+banlist={{BanList}}
 
 #Adds addition cheat protection.
 secure={{Secure}}

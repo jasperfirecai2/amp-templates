@@ -1,5 +1,4 @@
 [
-
     {
         "DisplayName": "World Seed",
         "Category": "Terraria Generator settings",
@@ -49,15 +48,97 @@
         "Keywords": "name new world",
         "Description": "How to name the new world",
         "FieldName": "WorldName",
-        "placeholder": "world",
+        "placeholder": "World",
         "suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
         "DefaultValue": "world"
     },
     {
+        "DisplayName": "NPC Stream",
+        "Category": "Terraria Generator settings",
+        "Keywords": "backup backups count world rollback",
+        "Description": "Sets the number of rolling world backups to keep",
+        "FieldName": "Backups",
+        "placeholder": "some integer",
+        "suffix": "Backups",
+        "InputType": "number",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 2
+    },
+    {
+        "DisplayName": "Mod Path",
+        "Category": "Terraria ModLoader settings",
+        "Keywords": "folder path mod mods tmodloader",
+        "Description": "Where tModLoader will read mods from. [instructions](https://github.com/jasperfirecai2/amp-templates/wiki/Managing-mods-with-tmodloader)",
+        "FieldName": "ModPath",
+        "placeholder": "ModLoader/Mods",
+        "suffix": "",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Mods"
+    },
+    {
+        "DisplayName": "Mod Pack",
+        "Category": "Terraria ModLoader settings",
+        "Keywords": "pack mod mods modpack tmodloader",
+        "Description": "Which modpack to load (does not install mods for you!)",
+        "FieldName": "ModPack",
+        "placeholder": "modpack",
+        "suffix": ".json",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Update Source",
+        "Category": "Terraria Launch settings",
+        "Keywords": "download source steam github tmodloader alpha release stream",
+        "Description": "Which version of the game to download when updating. Note that all versions except [tModLoader GitHub](https://github.com/tModLoader/tModLoader) require a Steam account that owns [Terraria](https://store.steampowered.com/app/105600/Terraria/)",
+        "FieldName": "Source",
+        "IncludeInCommandLine": false,
+        "InputType": "enum",
+        "EnumValues": {
+            "vanilla": "Terraria",
+            "tmod": "tModLoader (Steam)",
+            "tmodgh": "tModLoader (GitHub)",
+            "tmod1.4": "tModloader 1.4 alpha (Steam)"
+        },
+        "DefaultValue": "vanilla"
+    },
+    {
+        "DisplayName": "Run version",
+        "Category": "Terraria Launch settings",
+        "Keywords": "run source steam github tmodloader executable",
+        "Description": "Select which version of the server to run. Make sure you installed the relevant version by setting the update source first",
+        "FieldName": "Executable",
+        "IncludeInCommandLine": false,
+        "InputType": "enum",
+        "EnumValues": {
+            "TerrariaServer": "Terraria",
+            "tModLoaderServer": "tModLoader",
+            "LaunchUtils/ScriptCaller.sh": "tModloader 1.4 alpha (Linux)",
+            "LaunchUtils/busybox64": "tModloader 1.4 alpha (Windows)"
+        },
+        "DefaultValue": "Steam"
+    },
+    {
+        "DisplayName": "Additional Windows arguments",
+        "Category": "Terraria Launch settings",
+        "Keywords": "windows arguments args 1.4 alpha busybox",
+        "Description": "Enable/Disable the extra arguments required to run the tmodloader 1.4 alpha on windows",
+        "FieldName": "ExtraWindowsArgs",
+        "InputType": "checkbox",
+        "IncludeInCommandLine": false,
+        "EnumValues": {
+            "False": "",
+            "True": "bash ./LaunchUtils/ScriptCaller.sh"
+        },
+        "DefaultValue": ""
+    },
+    {
         "DisplayName": "World Path",
-        "Category": "Terraria Server settings",
+        "Category": "Terraria Launch settings",
         "Keywords": "folder path world saves savegame worlds",
         "Description": "The relative path to save worlds in",
         "FieldName": "WorldPath",
@@ -102,6 +183,18 @@
         "InputType": "password",
         "IncludeInCommandLine": false,
         "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Ban List",
+        "Category": "Terraria Server settings",
+        "Keywords": "ban banlist bans security",
+        "Description": "Where to store the ban list",
+        "FieldName": "BanList",
+        "placeholder": "somefilename.txt",
+        "suffix": "",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "banlist.txt"
     },
     {
         "DisplayName": "Motd",
@@ -202,23 +295,20 @@
         "Description": "Enable/Disable the text announcements Announcement Box makes when pulsed from wire.",
         "FieldName": "DisableAnnouncementBox",
         "InputType": "checkbox",
-        "IncludeInCommandLine": false,
-        "EnumValues": {
-            "False": "",
-            "True": "-disableannouncementbox"
-        },
-        "DefaultValue": ""
+        "IncludeInCommandLine": true,
+        "IsFlagArgument": true,
+        "DefaultValue": "-disableannouncementbox"
     },
     {
         "DisplayName": "Announcement Box Range",
         "Category": "Terraria Server settings",
         "Keywords": "announcement box range griefing",
         "Description": "Sets the announcement box text messaging range in pixels, -1 for serverwide announcements.",
-        "FieldName": "AnnouncementBoxRange",
+        "FieldName": "announcementboxrange",
         "placeholder": "-1",
         "suffix": "Pixels",
         "InputType": "number",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": "-1"
     },
     {
