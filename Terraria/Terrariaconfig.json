@@ -17,7 +17,8 @@
         "Keywords": "size new world",
         "Description": "Set the Size of the World",
         "FieldName": "WorldSize",
-        "IncludeInCommandLine": false,
+        "ParamFieldName": "autocreate",
+        "IncludeInCommandLine": true,
         "InputType": "enum",
         "EnumValues": {
             "1": "1 - Small World",
@@ -48,10 +49,11 @@
         "Keywords": "name new world",
         "Description": "How to name the new world",
         "FieldName": "WorldName",
+        "ParamFieldName": "worldname",
         "placeholder": "World",
         "suffix": "",
         "InputType": "text",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": "world"
     },
     {
@@ -120,7 +122,7 @@
             "LaunchUtils/ScriptCaller.sh": "tModloader 1.4 alpha (Linux)",
             "LaunchUtils/busybox64": "tModloader 1.4 alpha (Windows)"
         },
-        "DefaultValue": "Steam"
+        "DefaultValue": "TerrariaServer"
     },
     {
         "DisplayName": "Additional Windows arguments",
@@ -138,7 +140,7 @@
     },
     {
         "DisplayName": "World Path",
-        "Category": "Terraria Launch settings",
+        "Category": "Terraria Server settings",
         "Keywords": "folder path world saves savegame worlds",
         "Description": "The relative path to save worlds in",
         "FieldName": "WorldPath",
@@ -154,10 +156,11 @@
         "Keywords": "name world worldname load boot",
         "Description": "Which world to load on boot",
         "FieldName": "World",
+        "ParamFieldName": "world",
         "placeholder": "Worlds/world.wld",
         "suffix": "",
         "InputType": "text",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": "Worlds/world.wld"
     },
     {
@@ -278,7 +281,7 @@
         "DisplayName": "Cheat Protection",
         "Category": "Terraria Server settings",
         "Keywords": "security cheat cheats auto kick spam",
-        "Description": "Enable/Disable additional cheat protection",
+        "Description": "Enable/Disable additional cheat protection. This may cause unwanted automatic kicks",
         "FieldName": "Secure",
         "InputType": "checkbox",
         "IncludeInCommandLine": false,
@@ -296,6 +299,7 @@
         "FieldName": "DisableAnnouncementBox",
         "InputType": "checkbox",
         "IncludeInCommandLine": true,
+        "ParamFieldName": "disableannouncementbox",
         "IsFlagArgument": true,
         "DefaultValue": "-disableannouncementbox"
     },
@@ -304,18 +308,19 @@
         "Category": "Terraria Server settings",
         "Keywords": "announcement box range griefing",
         "Description": "Sets the announcement box text messaging range in pixels, -1 for serverwide announcements.",
-        "FieldName": "announcementboxrange",
+        "FieldName": "AnnouncementBoxRange",
         "placeholder": "-1",
         "suffix": "Pixels",
         "InputType": "number",
         "IncludeInCommandLine": true,
+        "ParamFieldName": "announcementboxrange",
         "DefaultValue": "-1"
     },
     {
         "DisplayName": "Freeze time",
         "Category": "Terraria Journey Permissions",
         "Keywords": "journey mode permissions power freeze time stop clock",
-        "Description": "Journey mode (1.4+ difficulty) power permissions for every individual power. Host is only relevant when using steam integration",
+        "Description": "Journey mode (1.4+ difficulty) power permissions for every individual power. 'Host' is only relevant when using steam integration, which is not supported by AMP by default.",
         "FieldName": "time_setfrozen",
         "InputType": "enum",
         "EnumValues": {
