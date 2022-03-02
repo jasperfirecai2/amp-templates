@@ -1,5 +1,5 @@
 Meta.DisplayName=Terraria-tModLoader1.4 public alpha
-Meta.Description=tModLoader 1.4 public alpha from steam (requires a steam account with terraria!)
+Meta.Description=tModLoader 1.4 public alpha from steam (requires a steam account with terraria & tModLoader!)
 Meta.Author=JasperFirecai2, EnderWolf, IceOfWraith
 Meta.MetaConfigManifest=tModLoadermetaconfig.json
 Meta.ConfigRoot=tModLoader1.4.kvp
