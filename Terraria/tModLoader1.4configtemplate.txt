@@ -81,3 +81,20 @@ priority={{Priority}}
 
 #Reduces maximum liquids moving at the same time. If enabled may reduce lags but liquids may take longer to settle.
 slowliquids={{Slowliquids}}
+
+#Journey mode power permissions for every individual power. 0: Locked for everyone, 1: Can only be changed by host, 2: Can be changed by everyone
+journeypermission_time_setfrozen={{time_setfrozen}}
+journeypermission_time_setdawn={{time_setdawn}}
+journeypermission_time_setnoon={{time_setnoon}}
+journeypermission_time_setdusk={{time_setdusk}}
+journeypermission_time_setmidnight={{time_setmidnight}}
+journeypermission_godmode={{godmode}}
+journeypermission_wind_setstrength={{wind_setstrength}}
+journeypermission_rain_setstrength={{rain_setstrength}}
+journeypermission_time_setspeed={{time_setspeed}}
+journeypermission_rain_setfrozen={{rain_setfrozen}}
+journeypermission_wind_setfrozen={{wind_setfrozen}}
+journeypermission_increaseplacementrange={{increaseplacementrange}}
+journeypermission_setdifficulty={{setdifficulty}}
+journeypermission_biomespread_setfrozen={{biomespread_setfrozen}}
+journeypermission_setspawnrate={{setspawnrate}}

@@ -53,10 +53,6 @@ motd={{Motd}}
 #Sets the folder where world files will be stored
 worldpath={{WorldPath}}
 
-#Path for mods
-modpath={{ModPath}}
-modpack={{ModPack}}
-
 #Sets the number of rolling world backups to keep
 worldrollbackstokeep={{Backups}}
 

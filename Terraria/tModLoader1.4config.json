@@ -69,16 +69,40 @@
         "DefaultValue": 2
     },
     {
+        "DisplayName": "Mod Path",
+        "Category": "Terraria ModLoader settings",
+        "Keywords": "folder path mod mods tmodloader",
+        "Description": "Where tModLoader will read mods from. [instructions](https://github.com/jasperfirecai2/amp-templates/wiki/Managing-mods-with-tmodloader)",
+        "FieldName": "ModPath",
+        "placeholder": "ModLoader/Mods",
+        "suffix": "",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "ModLoader/Mods"
+    },
+    {
+        "DisplayName": "Mod Pack",
+        "Category": "Terraria ModLoader settings",
+        "Keywords": "pack mod mods modpack tmodloader",
+        "Description": "Which modpack to load (does not install mods for you!)",
+        "FieldName": "ModPack",
+        "placeholder": "modpack",
+        "suffix": ".json",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": ""
+    },
+    {
         "DisplayName": "World Path",
         "Category": "Terraria Server settings",
         "Keywords": "folder path world saves savegame worlds",
         "Description": "The relative path to save worlds in",
         "FieldName": "WorldPath",
-        "placeholder": "Worlds",
+        "placeholder": "ModLoader/Worlds",
         "suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": false,
-        "DefaultValue": "Worlds"
+        "DefaultValue": "ModLoader/Worlds"
     },
     {
         "DisplayName": "World Name",
@@ -87,11 +111,11 @@
         "Description": "Which world to load on boot",
         "FieldName": "World",
         "ParamFieldName": "world",
-        "placeholder": "Worlds/world.wld",
+        "placeholder": "ModLoader/Worlds/world.wld",
         "suffix": "",
         "InputType": "text",
         "IncludeInCommandLine": true,
-        "DefaultValue": "Worlds/world.wld"
+        "DefaultValue": "ModLoader/Worlds/world.wld"
     },
     {
         "DisplayName": "Max Players",
