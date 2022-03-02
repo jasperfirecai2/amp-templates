@@ -1,83 +1,4 @@
 {
-    "Terraria": [
-        {
-            "UpdateStageName": "Config Template Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/Terrariaconfigtemplate.txt",
-            "UpdateSourceTarget": "../",
-            "OverwriteExistingFiles": true
-        },
-        {
-            "UpdateStageName": "SteamCMD Terraria",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "SteamCMD",
-            "UpdateSourceData": "105600",
-            "UpdateSourceTarget": "serverfiles"
-        }
-        
-    ],
-    "tModLoader": [
-        {
-            "UpdateStageName": "Config Template Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/tModLoaderconfigtemplate.txt",
-            "UpdateSourceTarget": "../",
-            "OverwriteExistingFiles": true
-        },
-        {
-            "UpdateStageName": "SteamCMD tModLoader",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "SteamCMD",
-            "UpdateSourceData": "1281930",
-            "UpdateSourceTarget": "serverfiles",
-            "UpdateSourceConditionSetting":"Source",
-            "UpdateSourceConditionValue":"Steam"
-        },
-        {
-            "UpdateStageName": "GitHub tModLoader Windows",
-            "UpdateSourcePlatform": "Windows",
-            "UpdateSource": "FetchURLfromJQ",
-            "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
-            "UpdateSourceArgs": "$.assets[7].browser_download_url",
-            "UnzipUpdateSource": true,
-            "OverwriteExistingFiles": true,
-            "UpdateSourceConditionSetting": "Source",
-            "UpdateSourceConditionValue": "GitHub",
-            "UpdateSourceTarget": "serverfiles"
-        },
-        {
-            "UpdateStageName": "GitHub tModLoader Linux",
-            "UpdateSourcePlatform": "Linux",
-            "UpdateSource": "FetchURLfromJQ",
-            "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
-            "UpdateSourceArgs": "$.assets[5].browser_download_url",
-            "UnzipUpdateSource": true,
-            "OverwriteExistingFiles": true,
-            "UpdateSourceConditionSetting": "Source",
-            "UpdateSourceConditionValue": "GitHub",
-            "UpdateSourceTarget": "serverfiles"
-        }
-    ],
-    "tModLoader1.4": [
-        {
-            "UpdateStageName": "Config Template Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/tModLoaderconfigtemplate.txt",
-            "UpdateSourceTarget": "../",
-            "OverwriteExistingFiles": true
-        },
-        {
-            "UpdateStageName": "SteamCMD tModLoader1.4 public alpha",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "SteamCMD",
-            "UpdateSourceData": "1281930",
-            "UpdateSourceVersion": "public-1.4-alpha",
-            "UpdateSourceTarget": "serverfiles"
-        }
-    ],
     "Merged": [
         {
             "UpdateStageName": "Config Template Download",
@@ -122,7 +43,7 @@
             "UpdateSourcePlatform": "Windows",
             "UpdateSource": "FetchURLfromJQ",
             "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
-            "UpdateSourceArgs": "$.assets[?(@.name.indexOf('Windows') > -1)].browser_download_url",
+            "UpdateSourceArgs": "$.assets[?(@.name =~ /tModLoader\\.Windows\\..+\\.zip/g)].browser_download_url",
             "UnzipUpdateSource": true,
             "UpdateSourceConditionSetting": "Source",
             "UpdateSourceConditionValue": "tmodgh",
@@ -134,87 +55,12 @@
             "UpdateSourcePlatform": "Linux",
             "UpdateSource": "FetchURLfromJQ",
             "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
-            "UpdateSourceArgs": "$.assets[?(@.name.indexOf('Linux') > -1 && @.name.indexOf('.zip') > -1)].browser_download_url",
+            "UpdateSourceArgs": "$.assets[?(@.name =~ /tModLoader\\.Linux\\..+\\.zip/g)].browser_download_url",
             "UnzipUpdateSource": true,
             "UpdateSourceConditionSetting": "Source",
             "UpdateSourceConditionValue": "tmodgh",
             "UpdateSourceTarget": "serverfiles",
             "OverwriteExistingFiles": true
-        }
-    ],
-    "tModLoader64": [
-        {
-            "UpdateStageName": "Config Template Download",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/tModLoaderconfigtemplate.txt",
-            "UpdateSourceTarget": "../",
-            "OverwriteExistingFiles": true
-        },
-        {
-            "UpdateStageName": "SteamCMD tModLoader",
-            "UpdateSourcePlatform": "All",
-            "UpdateSource": "SteamCMD",
-            "UpdateSourceData": "1281930",
-            "UpdateSourceTarget": "serverfiles",
-            "UpdateSourceConditionSetting":"Source",
-            "UpdateSourceConditionValue":"Steam"
-        },
-        {
-            "UpdateStageName": "GitHub tModLoader Windows",
-            "UpdateSourcePlatform": "Windows",
-            "UpdateSource": "FetchURLfromJQ",
-            "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
-            "UpdateSourceArgs": "$.assets[7].browser_download_url",
-            "UnzipUpdateSource": true,
-            "OverwriteExistingFiles": true,
-            "UpdateSourceConditionSetting": "Source",
-            "UpdateSourceConditionValue": "GitHub",
-            "UpdateSourceTarget": "serverfiles"
-        },
-        {
-            "UpdateStageName": "GitHub tModLoader Linux",
-            "UpdateSourcePlatform": "Linux",
-            "UpdateSource": "FetchURLfromJQ",
-            "UpdateSourceData": "https://api.github.com/repos/tModLoader/tModLoader/releases/latest",
-            "UpdateSourceArgs": "$.assets[5].browser_download_url",
-            "UnzipUpdateSource": true,
-            "OverwriteExistingFiles": true,
-            "UpdateSourceConditionSetting": "Source",
-            "UpdateSourceConditionValue": "GitHub",
-            "UpdateSourceTarget": "serverfiles"
-        },
-        {
-            "UpdateStageName": "Fetch tModLoader64 from Github",
-            "UpdateSourcePlatform": "Windows",
-            "UpdateSource": "GithubRelease",
-            "UpdateSourceArgs": "Dradonhunter11/tModLoader64bit",
-            "UpdateSourceData": "tModLoader64bit-Windows.zip",
-            "UnzipUpdateSource": true,
-            "OverwriteExistingFiles": true,
-            "UpdateSourceTarget": "serverfiles"
-        },
-        {
-            "UpdateStageName": "Fetch tModLoader64 from Github",
-            "UpdateSourcePlatform": "Linux",
-            "UpdateSource": "GithubRelease",
-            "UpdateSourceArgs": "Dradonhunter11/tModLoader64bit",
-            "UpdateSourceData": "tModLoader64Bit-Linux-Server.zip",
-            "UnzipUpdateSource": true,
-            "OverwriteExistingFiles": true,
-            "UpdateSourceTarget": "serverfiles"
-        },
-        {
-            "UpdateStageName": "Set Permissions on scripts 1/2",
-            "UpdateSourcePlatform": "Linux",
-            "UpdateSource": "SetExecutableFlag",
-            "UpdateSourceArgs": "serverfiles/tModLoader64BitServer"
-        },
-        {
-            "UpdateStageName": "Set Permissions on scripts 2/2",
-            "UpdateSourcePlatform": "Linux",
-            "UpdateSource": "SetExecutableFlag",
-            "UpdateSourceArgs": "serverfiles/tModLoader64BitServer.exe"
         }
     ]
 }
