@@ -1,8 +1,0 @@
-[
-	{
-		"ConfigFile": "serverconfig.txt",
-		"AutoMap": true,
-		"ConfigType": "template",
-        "ConfigFileTemplate": "tModLoaderconfigtemplate.txt"
-	}
-]
