@@ -57,7 +57,7 @@
         "DefaultValue": "world"
     },
     {
-        "DisplayName": "NPC Stream",
+        "DisplayName": "Backup count",
         "Category": "Terraria Generator settings",
         "Keywords": "backup backups count world rollback",
         "Description": "Sets the number of rolling world backups to keep",
