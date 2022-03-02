@@ -9,7 +9,7 @@ This can break AMP entirely and is hard to clean.
 You will likely NOT NEED this for the server, because most of the RAM usage comes from TEXTURES that the server doesn't load.
 If you know you need this, and know how to install monodevelop in a container, you can use tmodloader64.
 
-## Setting up indepoendent generics
+## Setting up independent generics
 
 To set up your generic template, you will need to download the .kvp, config, configtemplate and config that are meant for the version you want (e.g. tModLoader.kvp, tModLoaderconfig.json, tModLoadermetaconfig.json and tModLoaderconfigtemplate.txt).
 updatesources.json is purly for readability.
