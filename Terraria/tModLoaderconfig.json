@@ -92,7 +92,7 @@
     },
     {
         "DisplayName": "Update Source",
-        "Category": "Terraria Modloader settings",
+        "Category": "Terraria ModLoader settings",
         "Keywords": "download source steam github tmodloader",
         "Description": "Select where to obtain tModLoader. Steam requires you to own [Terraria](https://store.steampowered.com/app/105600/Terraria/) & [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) on your account and accept tModLoader's ToS by installing it as a game to a device you can login from.",
         "FieldName": "Source",
