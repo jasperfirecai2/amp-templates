@@ -11,6 +11,6 @@ If you know you need this, and know how to install monodevelop in a container, y
 
 ## Setting up independent generics
 
-To set up your generic template, you will need to download the .kvp, config, configtemplate and config that are meant for the version you want (e.g. tModLoader.kvp, tModLoaderconfig.json, tModLoadermetaconfig.json and tModLoaderconfigtemplate.txt).
+To set up your generic template, you will need to download the .kvp, config, configtemplate and metaconfig that are meant for the version you want (e.g. tModLoader.kvp, tModLoaderconfig.json, tModLoadermetaconfig.json and tModLoaderconfigtemplate.txt).
 updatesources.json is purly for readability.
 tmodloader64 uses the tmodloader files for everything except the kvp.
