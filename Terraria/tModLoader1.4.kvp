@@ -15,6 +15,7 @@ App.BaseDirectory=./tModLoader1.4/serverfiles
 App.ExecutableWin=serverfiles/LaunchUtils/busybox64
 App.ExecutableLinux=serverfiles/LaunchUtils/ScriptCaller.sh
 App.WorkingDir=serverfiles
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "1281930"}
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=bash ./LaunchUtils/ScriptCaller.sh
 App.CommandLineArgs=-server {{$FormattedArgs}} -players {{$MaxUsers}} -port {{$ApplicationPort1}} -config {{Config}}

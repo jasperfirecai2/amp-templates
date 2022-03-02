@@ -15,6 +15,7 @@ App.BaseDirectory=./tModLoader/serverfiles
 App.ExecutableWin=serverfiles/tModLoaderServer.exe
 App.ExecutableLinux=serverfiles/tModLoaderServer
 App.WorkingDir=serverfiles
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "1281930"}
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
 App.CommandLineArgs=-server {{$FormattedArgs}} -players {{$MaxUsers}} -port {{$ApplicationPort1}} -config {{Config}}
