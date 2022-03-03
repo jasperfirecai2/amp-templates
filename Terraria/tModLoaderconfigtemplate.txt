@@ -27,7 +27,7 @@
 #remove the # in front of commands to enable them.
 
 #Load a world and automatically start the server.
-world={{world}}
+world={{$FullBaseDir}}/{{world}}
 
 #Creates a new world if none is found. World size is specified by: 1(small), 2(medium), and 3(large).
 autocreate={{autocreate}}
@@ -51,17 +51,17 @@ password={{Password}}
 motd={{Motd}}
 
 #Sets the folder where world files will be stored
-worldpath={{WorldPath}}
+worldpath={{$FullBaseDir}}/{{WorldPath}}
 
 #Path for mods
-modpath={{ModPath}}
+modpath={{$FullBaseDir}}/{{ModPath}}
 modpack={{ModPack}}
 
 #Sets the number of rolling world backups to keep
 worldrollbackstokeep={{Backups}}
 
 #The location of the banlist. Defaults to "banlist.txt" in the working directory.
-banlist={{BanList}}
+banlist={{$FullBaseDir}}/{{BanList}}
 
 #Adds addition cheat protection.
 secure={{Secure}}
