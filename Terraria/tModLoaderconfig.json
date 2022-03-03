@@ -67,6 +67,17 @@
         "DefaultValue": 2
     },
     {
+        "DisplayName": "Path prefix",
+        "Category": "hidden settings",
+        "Keywords": "path prefix",
+        "Description": "prefix full path for template",
+        "FieldName": "$FullBaseDir",
+        "ParamFieldName": "fullbasedir",
+        "InputType": "text",
+        "Hidden": true,
+        "IncludeInCommandLine": false
+    },
+    {
         "DisplayName": "Mod Path",
         "Category": "Terraria ModLoader settings",
         "Keywords": "folder path mod mods tmodloader",
