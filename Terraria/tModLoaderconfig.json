@@ -125,7 +125,7 @@
         "placeholder": "ModLoader/Worlds/world.wld",
         "suffix": "",
         "InputType": "text",
-        "IncludeInCommandLine": true,
+        "IncludeInCommandLine": false,
         "DefaultValue": "ModLoader/Worlds/world.wld"
     },
     {
