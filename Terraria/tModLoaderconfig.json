@@ -116,18 +116,6 @@
         "DefaultValue": "GitHub"
     },
     {
-        "DisplayName": "World Path",
-        "Category": "Terraria Server settings",
-        "Keywords": "folder path world saves savegame worlds",
-        "Description": "The relative path to save worlds in",
-        "FieldName": "WorldPath",
-        "placeholder": "ModLoader/Worlds",
-        "suffix": "",
-        "InputType": "text",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "ModLoader/Worlds"
-    },
-    {
         "DisplayName": "World Name",
         "Category": "Terraria Server settings",
         "Keywords": "name world worldname load boot",
