@@ -5,10 +5,11 @@
         "Keywords": "seed new world",
         "Description": "Which world seed to use when generating a new world",
         "FieldName": "Seed",
+        "ParamFieldName": "seed",
         "placeholder": "PoweredByAMP",
         "suffix": "",
         "InputType": "text",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": ""
     },
     {
@@ -67,17 +68,6 @@
         "InputType": "number",
         "IncludeInCommandLine": false,
         "DefaultValue": 2
-    },
-    {
-        "DisplayName": "Path prefix",
-        "Category": "hidden settings",
-        "Keywords": "path prefix",
-        "Description": "prefix full path for template",
-        "FieldName": "$FullBaseDir",
-        "ParamFieldName": "fullbasedir",
-        "InputType": "text",
-        "Hidden": true,
-        "IncludeInCommandLine": false
     },
     {
         "DisplayName": "Mod Path",

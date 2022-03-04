@@ -5,10 +5,11 @@
         "Keywords": "seed new world",
         "Description": "Which world seed to use when generating a new world",
         "FieldName": "Seed",
+        "ParamFieldName": "seed",
         "placeholder": "PoweredByAMP",
         "suffix": "",
         "InputType": "text",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": ""
     },
     {
@@ -67,17 +68,6 @@
         "DefaultValue": 2
     },
     {
-        "DisplayName": "Path prefix",
-        "Category": "hidden settings",
-        "Keywords": "path prefix",
-        "Description": "prefix full path for template",
-        "FieldName": "$FullBaseDir",
-        "ParamFieldName": "fullbasedir",
-        "InputType": "text",
-        "Hidden": true,
-        "IncludeInCommandLine": false
-    },
-    {
         "DisplayName": "Mod Path",
         "Category": "Terraria ModLoader settings",
         "Keywords": "folder path mod mods tmodloader",
@@ -114,6 +104,18 @@
             "Steam": "Steam"
         },
         "DefaultValue": "GitHub"
+    },
+    {
+        "DisplayName": "World Path",
+        "Category": "Terraria Server settings",
+        "Keywords": "folder path world saves savegame worlds",
+        "Description": "The relative path to save worlds in",
+        "FieldName": "WorldPath",
+        "placeholder": "Worlds",
+        "suffix": "",
+        "InputType": "text",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Worlds"
     },
     {
         "DisplayName": "World Name",

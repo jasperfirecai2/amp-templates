@@ -5,10 +5,11 @@
         "Keywords": "seed new world",
         "Description": "Which world seed to use when generating a new world",
         "FieldName": "Seed",
+        "ParamFieldName": "seed",
         "placeholder": "PoweredByAMP",
         "suffix": "",
         "InputType": "text",
-        "IncludeInCommandLine": false,
+        "IncludeInCommandLine": true,
         "DefaultValue": ""
     },
     {
