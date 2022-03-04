@@ -69,17 +69,6 @@
         "DefaultValue": 2
     },
     {
-        "DisplayName": "World Path prefix",
-        "Category": "hidden settings",
-        "Keywords": "path prefix",
-        "Description": "prefix full path for template",
-        "FieldName": "$FullBaseDir",
-        "ParamFieldName": "fullbasedir",
-        "InputType": "text",
-        "Hidden": true,
-        "IncludeInCommandLine": false
-    },
-    {
         "DisplayName": "World Path",
         "Category": "Terraria Server settings",
         "Keywords": "folder path world saves savegame worlds",
