@@ -1,8 +1,8 @@
 [
 	{
-		"ConfigFile": "serverconfig.txt",
+		"ConfigFile": "tModLoader1.4serverconfig.txt",
 		"AutoMap": true,
-		"ConfigType": "template",
-        "ConfigFileTemplate": "tModLoader1.4configtemplate.txt"
+		"ConfigType": "kvp",
+		"ConfigFormat": "{0}={1}"
 	}
 ]
