@@ -39,44 +39,44 @@ seed={{seed}}
 worldname={{worldname}}
 
 #Sets the difficulty of the world when using autocreate 0(classic), 1(expert), 2(master), 3(journey)
-difficulty={{Difficulty}}
+difficulty={{difficulty}}
 
 #Sets the max number of players allowed on a server.  Value must be between 1 and 255
-maxplayers={{$MaxUsers}}
+maxplayers={{maxplayers}}
 
 #Set the server password
-password={{Password}}
+password={{password}}
 
 #Set the message of the day
-motd={{Motd}}
+motd={{motd}}
 
 #Sets the folder where world files will be stored
-worldpath={{WorldPath}}
+worldpath={{worldpath}}
 
 #Sets the number of rolling world backups to keep
-worldrollbackstokeep={{Backups}}
+worldrollbackstokeep={{worldrollbackstokeep}}
 
 #The location of the banlist. Defaults to "banlist.txt" in the working directory.
-banlist={{BanList}}
+banlist={{banlist}}
 
 #Adds addition cheat protection.
-secure={{Secure}}
+secure={{secure}}
 
 #Sets the server language from its language code. 
 #English = en-US, German = de-DE, Italian = it-IT, French = fr-FR, Spanish = es-ES, Russian = ru-RU, Chinese = zh-Hans, Portuguese = pt-BR, Polish = pl-PL,
-language={{Language}}
+language={{language}}
 
 #Automatically forward ports with uPNP
 #upnp=1
 
 #Reduces enemy skipping but increases bandwidth usage. The lower the number the less skipping will happen, but more data is sent. 0 is off.
-npcstream={{NpcStream}}
+npcstream={{npcstream}}
 
 #Default system priority 0:Realtime, 1:High, 2:AboveNormal, 3:Normal, 4:BelowNormal, 5:Idle
-priority={{Priority}}
+priority={{priority}}
 
 #Reduces maximum liquids moving at the same time. If enabled may reduce lags but liquids may take longer to settle.
-slowliquids={{Slowliquids}}
+slowliquids={{slowliquids}}
 
 #Journey mode power permissions for every individual power. 0: Locked for everyone, 1: Can only be changed by host, 2: Can be changed by everyone
 journeypermission_time_setfrozen={{time_setfrozen}}
