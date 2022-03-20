@@ -6,7 +6,7 @@
             "UpdateSource": "FetchURL",
             "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/Terrariaserverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": true
+            "OverwriteExistingFiles": false
         },
         {
             "UpdateStageName": "SteamCMD Terraria",
@@ -24,7 +24,7 @@
             "UpdateSource": "FetchURL",
             "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/tModLoaderserverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": true
+            "OverwriteExistingFiles": false
         },
         {
             "UpdateStageName": "SteamCMD tModLoader",
@@ -67,7 +67,7 @@
             "UpdateSource": "FetchURL",
             "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/tModLoader1.4serverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": true
+            "OverwriteExistingFiles": false
         },
         {
             "UpdateStageName": "SteamCMD tModLoader1.4 public alpha",
@@ -85,7 +85,7 @@
             "UpdateSource": "FetchURL",
             "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/Terrariaserverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
-            "OverwriteExistingFiles": true
+            "OverwriteExistingFiles": false
         },
         {
             "UpdateStageName": "SteamCMD Terraria",
