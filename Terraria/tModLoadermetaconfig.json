@@ -1,6 +1,6 @@
 [
 	{
-		"ConfigFile": "Terrariaserverconfig.txt",
+		"ConfigFile": "tModLoaderserverconfig.txt",
 		"AutoMap": true,
 		"ConfigType": "kvp",
 		"ConfigFormat": "{0}={1}"
