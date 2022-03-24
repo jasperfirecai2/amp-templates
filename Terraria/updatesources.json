@@ -4,7 +4,7 @@
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
             "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/Terrariaserverconfig.txt",
+            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/Terrariaserverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
             "OverwriteExistingFiles": false
         },
@@ -22,7 +22,7 @@
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
             "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/tModLoaderserverconfig.txt",
+            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/tModLoaderserverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
             "OverwriteExistingFiles": false
         },
@@ -65,7 +65,7 @@
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
             "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/tModLoader1.4serverconfig.txt",
+            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/tModLoader1.4serverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
             "OverwriteExistingFiles": false
         },
@@ -147,7 +147,7 @@
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "Windows",
             "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/Terrariaserverconfig.txt",
+            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/Terrariaserverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
             "OverwriteExistingFiles": false
         },
@@ -174,7 +174,7 @@
             "UpdateStageName": "Config Template Download",
             "UpdateSourcePlatform": "All",
             "UpdateSource": "FetchURL",
-            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/standalones/Terraria/tModLoaderserverconfig.txt",
+            "UpdateSourceData": "https://raw.githubusercontent.com/jasperfirecai2/amp-templates/main/Terraria/tModLoaderserverconfig.txt",
             "UpdateSourceTarget": "serverfiles",
             "OverwriteExistingFiles": true
         },
