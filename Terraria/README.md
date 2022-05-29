@@ -22,3 +22,6 @@ It might occur that you get the message 'Your Steam account does not have access
 To set up your generic template, you will need to download the .kvp, config and metaconfig that are meant for the version you want (e.g. tModLoader.kvp, tModLoaderconfig.json and tModLoadermetaconfig.json).
 updatesources.json is purly for readability.
 tmodloader64 uses the tmodloader files for everything except the kvp.
+tshock uses terraria config files
+
+Put these files in your /generictemplates folder of ADS. File manager -> ADS01/Plugins/ADSModule/GenericTemplates
