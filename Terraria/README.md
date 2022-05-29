@@ -11,7 +11,7 @@ If you know you need this, and know how to install monodevelop in a container, y
 
 ## Notice regarding tModLoader
 
-It might occur that you get the message 'Your Steam account does not have access to this server' when updating the game through steam. This is because tModLoader exists as a 'game' on the store is a special way.  This can by fixed by:
+It might occur that you get the message 'Your Steam account does not have access to this server' when updating the game through steam. This is because tModLoader exists as a 'game' on the store in a special way.  This can by fixed by:
 
 1. Aquiring [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) in your Steam library (it's free!)
 2. Starting a download of tModLoader from your library
@@ -20,8 +20,8 @@ It might occur that you get the message 'Your Steam account does not have access
 ## Setting up independent generics
 
 To set up your generic template, you will need to download the .kvp, config and metaconfig that are meant for the version you want (e.g. tModLoader.kvp, tModLoaderconfig.json and tModLoadermetaconfig.json).
-updatesources.json is purly for readability.
+updatesources.json is purely for readability.
 tmodloader64 uses the tmodloader files for everything except the kvp.
 tshock uses terraria config files
 
-Put these files in your /generictemplates folder of ADS. File manager -> ADS01/Plugins/ADSModule/GenericTemplates
+Put these files in your /generictemplates folder of ADS. File manager -> ADS01/Plugins/ADSModule/GenericTemplates by default
